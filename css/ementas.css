@@ -1,0 +1,68 @@
+.align-center {
+	text-align: center;
+}
+
+.discipline {
+	height: 100px;
+	border-radius: 3px;
+	padding-top: 25px;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+.eixo {
+	height: 40px;
+	border-radius: 3px;
+	padding-top: 7px;
+	margin-right: 10px;
+}
+
+.exb {
+	background-color: grey;
+}
+
+.exc {
+	background-color: orange;
+}
+
+.exh {
+	background-color: lightblue;
+}
+
+.ext {
+	background-color: lightgreen;
+}
+
+.margin-top-25 {
+	margin-top: 25px;
+}
+
+.padding-right-left-50 {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.semester {
+	height: 40px;
+	border-radius: 3px;
+	background-color: green;
+	color: white;
+	padding-top: 7px;
+	margin-right: 10px;
+}
+
+#eixob {
+	background-color: grey;
+}
+
+#eixoc {
+	background-color: orange;
+}
+
+#eixoh {
+	background-color: lightblue;
+}
+
+#eixot {
+	background-color: lightgreen;
+}
