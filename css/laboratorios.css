@@ -1,0 +1,64 @@
+body {
+	background-color: #CCFFCC;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+.back-blue {
+	background-color: blue;
+}
+
+.back-green {
+	background-color: green;
+}
+
+.collapse-box {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.collapse-text {
+	font-size: 14px;
+}
+
+.collapse-title {
+	font-size: 16px;
+}
+
+.hr-publications {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.p-publications {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.p-publications-end {
+	margin-top: 7px;
+}
+
+.lab-box {
+	font-size: 25px;
+	color: white;
+	border-radius: 5px;
+}
+
+.lab-icons {
+	font-size: 60px !important;
+	color: black;
+	margin-top: 20px;
+}
+
+#laboratory-title {
+	color: #366AAB;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 10px;
+}

@@ -72,6 +72,10 @@ main {
 	margin-right: 10px;
 }
 
+#eixoall {
+	background-color: green;
+}
+
 #eixob {
 	background-color: grey;
 }
