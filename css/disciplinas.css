@@ -1,5 +1,12 @@
-.align-center {
-	text-align: center;
+body {
+	background-color: #CCFFCC;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 .border-green {

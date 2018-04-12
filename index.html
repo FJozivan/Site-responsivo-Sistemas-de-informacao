@@ -8,8 +8,11 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<link rel="stylesheet" type="text/css" href="css/navbar.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
 	<title>SI IFCE Crato</title>
 	<link rel="icon" href="img/ifce_logo.png" />
@@ -19,29 +22,16 @@
 	<!-- Navbar begin -->
 	<div id="main-navbar" class="container-fluid">
 		<div class="row padding-top-18">
-			<div class="col-md-2">
-				<img id="logo" src="img/ifce_logo_full.jpg">
+			<div class="col-md-3">
+				<img id="logo" src="img/ifce_svg.png">
+				<span id="si">Sistemas de Informação</span>
 			</div>
-			<div class="col-md-10 d-none d-md-block container-fluid">
+			<div class="col-md-9 d-none d-md-block container-fluid">
 				<span class="row margin-left-10">
 					<span class="margin-right-40"><a class="navbar-link" href="#">Página Inicial</a></span>
-					<span class="margin-right-40 dropdown">
-						<a class="navbar-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Ementa
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="html/ementas.html">1º semestre</a>
-							<a class="dropdown-item" href="#">2º semestre</a>
-							<a class="dropdown-item" href="#">3º semestre</a>
-							<a class="dropdown-item" href="#">4º semestre</a>
-							<a class="dropdown-item" href="#">5º semestre</a>
-							<a class="dropdown-item" href="#">6º semestre</a>
-							<a class="dropdown-item" href="#">7º semestre</a>
-							<a class="dropdown-item" href="#">8º semestre</a>
-						</div>
-					</span>
-					<span class="margin-right-40"><a class="navbar-link" href="#">Corpo docente</a></span>
-					<span class="margin-right-40"><a class="navbar-link" href="#">Estágios</a></span>
+					<span class="margin-right-40"><a class="navbar-link" href="html/disciplinas.html">Disciplinas</a></span>
+					<span class="margin-right-40"><a class="navbar-link" href="#">Professores</a></span>
+					<span class="margin-right-40"><a class="navbar-link" href="#">Estagiários</a></span>
 					<span class="margin-right-40 dropdown">
 						<a class="navbar-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Laboratórios
@@ -52,7 +42,6 @@
 							<a class="dropdown-item" href="#">LITE</a>
 						</div>
 					</span>
-					<span class="margin-right-40 d-none d-lg-block"><a class="navbar-link" href="#">Desenvolvedores</a></span>
 				</span>
 			</div>
 		</div>
@@ -106,14 +95,49 @@
 	</nav> -->
 	<!-- Navbar end -->
 	<!-- Exemplo -->
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-12">
-				<p id="example">Site de Sistemas de Informação - IFCE Crato</p>
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<p id="example">Site de Sistemas de Informação - IFCE Crato</p>
+				</div>
 			</div>
 		</div>
-	</div>
+	</main>
 	<!-- Exemplo -->
+	<!-- Footer begin -->
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<p class="footer-title">Sistemas de Informação</p>
+					<p style="text-align: justify;">O Bachareledo em Sistemas de Informação tem como objetivo formar profissionais para atuar em atividades ligadas a administração do fluxo de informações geradas e distribuídas por redes de computadores dentro de uma organização (planejamento e organização do processamento, armazenamento, recuperação e disponibilização das informações), além de funções relacionadas a suporte aos usuários e infraestrutura tecnológica.</p>
+				</div>
+				<div class="col-lg-4">
+					<p class="footer-title">Desenvolvedores</p>
+					<p class="align-center">
+						<a href="https://www.facebook.com/darcanjo.baal">José Aderbal Aragão Filho</a><br />
+						<a href="https://www.facebook.com/carmem.barreto.52">Carmem Barreto Veloso</a><br />
+						<a href="https://www.facebook.com/fabio.f.junior.14">Antonio Fabio da Silva Junior</a><br />
+						<a href="https://www.facebook.com/franciscojosivamtiadozafreire">Francisco Jozivan Tiadoza Freire</a><br />
+						<a href="https://www.facebook.com/mayk.arrais">Cicero Mayke Arrais</a><br />
+						<a href="https://www.facebook.com/raffaell.caitano">Raffaell Rodrigues Caitano</a><br />
+						<a href="https://www.facebook.com/ViniciusMatosMedeiros">Vinícius Matos Medeiros</a><br />
+					</p>
+				</div>
+				<div class="col-lg-4">
+					<p class="footer-title">Contato IFCE Crato</p>
+					<p>
+						<p><i class="material-icons footer-icon">phone</i>&emsp;(88) 3586-8151</p>
+						<p><i class="material-icons footer-icon">email</i>&emsp;davidduarte@ifce.edu.br</p>
+						<p><i class="material-icons footer-icon">location_on</i>&emsp;CE-292, 15 - Gisélia Pinheiro, Crato - CE</p>
+					</p>
+				</div>
+			</div>
+			<p class="align-center">&copy; Copyright 2018 - Todos os direitos reservados.</p>
+		</div>
+	</footer>
+	<!-- Footer end -->
 
 	<!-- Javascript-->
 	<script type="text/javascript"></script>

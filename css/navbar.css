@@ -7,13 +7,14 @@
 }
 
 .navbar-link {
-	color: #353535 !important;
+	color: #699DDE !important;
 	padding-bottom: 15px;
 	font-size: 15px;
 }
 
 .navbar-link:hover {
 	border-bottom: 3px solid #2BDE73;
+	color: #DDDDDD !important;
 	text-decoration: none;
 }
 
@@ -23,13 +24,20 @@
 
 #main-navbar {
 	height: 58px;
-	background-color: #FFFFFF;
+	flex-shrink: 0;
+	background-color: #002288;
 	border-radius: 0;
 	box-shadow: 0px 3px 2px #EEEEEE;
 }
 
 #logo {
-	height: 40px;
-	width: 100px;
-	margin-top: -10px;
+	height: 38px;
+	width: 30px;
+	margin-top: -8px;
+}
+
+#si {
+	color: #DDDDDD;
+	margin-left: 5px;
+	font-size: 17px;
 }
