@@ -20,6 +20,16 @@ main {
 .collapse-box {
 	margin-top: 10px;
 	font-size: 20px;
+	background-color: #228BFB;
+	color: #353535;
+}
+
+.collapse-card {
+	background-color: #FFFFFF;
+}
+
+.collapse-icon {
+	margin-right: 10px;
 }
 
 .collapse-text {
@@ -28,6 +38,10 @@ main {
 
 .collapse-title {
 	font-size: 16px;
+}
+
+.font-size-30 {
+	font-size: 30px !important;
 }
 
 .hr-publications {
