@@ -1,7 +1,3 @@
-#example {
-	color: blue;
-}
-
 body {
 	background-color: #CCFFCC;
 	display: flex;
@@ -11,4 +7,13 @@ body {
 
 main {
 	flex: 1 0 auto;
+}
+
+.jumbotron {
+	background-color: green;
+	color: white;
+}
+
+.img-boxes:hover {
+	opacity: 0.3;
 }

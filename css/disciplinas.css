@@ -1,4 +1,8 @@
-/* DISCIPLINA 2*/
+/* DISCIPLINA */
+.course-description {
+	border-left: 1px solid green;
+}
+
 .margin-bottom-20 {
 	margin-bottom: 20px;
 }
@@ -7,7 +11,7 @@ table {
 	background-color: white !important;
 }
 
-/* DISCIPLINA */
+/* DISCIPLINA 2*/
 body {
 	background-color: #CCFFCC;
 	display: flex;
