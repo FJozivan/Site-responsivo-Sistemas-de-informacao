@@ -1,14 +1,25 @@
 /* DISCIPLINA */
+table {
+	background-color: white !important;
+}
+
+.close {
+	text-align: right;
+}
+
+.close-icon {
+	color: red;
+	font-size: 40px !important;
+	margin-top: -30px;
+	margin-right: -25px;
+}
+
 .course-description {
 	border-left: 1px solid green;
 }
 
 .margin-bottom-20 {
 	margin-bottom: 20px;
-}
-
-table {
-	background-color: white !important;
 }
 
 /* DISCIPLINA 2*/
