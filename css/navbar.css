@@ -36,6 +36,10 @@
 	margin-top: -8px;
 }
 
+#logo-link {
+	text-decoration: none;
+}
+
 #si {
 	color: #DDDDDD;
 	margin-left: 5px;

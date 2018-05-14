@@ -23,15 +23,17 @@
 	<div id="main-navbar" class="container-fluid">
 		<div class="row padding-top-18">
 			<div class="col-md-3">
-				<img id="logo" src="../img/ifce_svg.png">
-				<span id="si">Sistemas de Informação</span>
+				<a id="logo-link" href="../index.html">
+					<img id="logo" src="../img/ifce_svg.png">
+					<span id="si">Sistemas de Informação</span>
+				</a>
 			</div>
 			<div class="col-md-9 d-none d-md-block container-fluid">
 				<span class="row margin-left-10">
 					<span class="margin-right-40"><a class="navbar-link" href="../index.html">Página Inicial</a></span>
 					<span class="margin-right-40"><a class="navbar-link" href="#">Disciplinas</a></span>
-					<span class="margin-right-40"><a class="navbar-link" href="#">Professores</a></span>
-					<span class="margin-right-40"><a class="navbar-link" href="#">Estagiários</a></span>
+					<span class="margin-right-40"><a class="navbar-link" href="professores.html">Professores</a></span>
+					<span class="margin-right-40"><a class="navbar-link" href="estagiarios.html">Estagiários</a></span>
 					<span class="margin-right-40 dropdown">
 						<a class="navbar-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Laboratórios
@@ -51,11 +53,12 @@
 	<main>
 		<span class="container-fluid">
 			<div id="course-description" class="padding-right-left-50 margin-bottom-20">
-				<div class="course">
+				<div id="course-description-tip" class="course">
 					<h3 class="align-center">Ementa das disciplinas</h3><br />
 					<p>Clique nas disciplinas abaixo para acessar a ementa.</p>
 				</div>
 				<div id="course-description-calculo" class="card card-body border-green course">
+					<span class="close"><a href="#"><i class="material-icons close-icon">close</i></a></span>
 					<div class="row">
 						<span class="col-lg-6">
 							<p><strong>Ementa:</strong><br />Funções reais de uma variável. Curvas. Funções trigonométricas. Função exponencial. Função logarítmica. Limites. Continuidade. Derivadas. Aplicações das derivadas. Noções e aplicações de Integrais.</p>
@@ -71,6 +74,7 @@
 					</div>
 				</div>
 				<div id="course-description-discreta" class="card card-body border-green course">
+					<span class="close"><a href="#"><i class="material-icons close-icon">close</i></a></span>
 					<div class="row">
 						<span class="col-lg-6">
 							<p><strong>Ementa:</strong><br />Teoria elementar dos conjuntos. Relações. Funções. Teoria dos Grafos. Indução matemática. Recursão. Sistemas algébricos. Linguagens simbólicas. Sistemas de equações lineares. Matrizes. Vetores. Espaços Vetoriais. Dependência e independência linear. Transformações lineares. Fundamentos de análise combinatória.</p>
@@ -82,6 +86,118 @@
 						<span class="course-description col-lg-6">
 							<p><strong>Bibliografia básica:</strong><br />LIPSCHUTZ, S.; LIPSON, M. <strong>Matemática discreta.</strong> Porto Alegre: Bookman, 2004.<br />MENEZES, P. B. <strong>Matemática discreta para computação e informática.</strong> Porto Alegre: Sagra-Luzzatto, 2004.<br />GERSTING, J. L. <strong>Fundamentos matemáticos para a Ciência da Computação.</strong> RJ: LTC, 2001.</p>
 							<p><strong>Bibliografia complementar:</strong><br />AVILA, G. <strong>Variáveis complexas e aplicações.</strong> Rio de Janeiro: LTC, 2000.<br />LOPES, L. <strong>Manual de funções exponenciais e logaritmos.</strong> Rio de Janeiro: Interciência, 1999.<br />ROSEN, K. H. <strong>Discrete Mathematics and its applications.</strong> 5. ed. Nova York: McGraw-Hill, 2003.</p>
+						</span>
+					</div>
+				</div>
+				<div id="course-description-bdi" class="card card-body border-green course">
+					<span class="close"><a href="#"><i class="material-icons close-icon">close</i></a></span>
+					<div class="row">
+						<span class="col-lg-6">
+							<p><strong>Ementa:</strong><br />Principais conceitos. Projeto conceitual de um banco de dados: modelo entidade-relacionamento. Projeto lógico de um banco de dados: modelo relacional. Mapeamento ER-relacional. Álgebra relacional. Normalização. Introdução à Linguagem SQL, criação de tabelas e relacionamentos, manipulação de dados, operações de consulta, agrupamentos e ordenações, junções entre tabelas. Introdução aos sistemas gerenciadores de bancos de dados.</p>
+							<p><strong>Eixo:</strong> Tecnológico</p>
+							<p><strong>Carga horária total:</strong> 80 h/a&emsp;&emsp;<strong>Nº de créditos:</strong> 4</p>
+							<p><strong>Carga horária semanal:</strong> 4 h/a</p>
+							<p><strong>Pré-requisito:</strong> Nenhum</p>
+						</span>
+						<span class="course-description col-lg-6">
+							<p><strong>Bibliografia básica:</strong><br />DATE, C. J. <strong>Introdução a sistemas de bancos de dados.</strong> 8. ed. Rio de Janeiro: Campus, 2004.<br />ELMASRI, R.; NAVATHE, S. B. <strong>Sistemas de banco de dados.</strong> São Paulo: Pearson Brasil, 2005.<br />KORTH, H.F.; SILBERSCHATZ, A. <strong>Sistema de Banco de Dados.</strong> 3a. ed. São Paulo: Makron Books, 1999.</p>
+							<p><strong>Bibliografia complementar:</strong><br />ABREU, M.; MACHADO, F. N. R. <strong>Projeto de banco de dados: uma visão prática.</strong> São Paulo: Érica, 2004.<br />GUIMARÃES, C. C. <strong>Fundamentos de banco de dados: modelagem, projeto e linguagem SQL</strong> Campinas: Unicamp, 2003.<br />MACHADO, F. N. <strong>Banco de dados: projeto e implementação.</strong> São Paulo: Érica, 2004.</p>
+						</span>
+					</div>
+				</div>
+				<div id="course-description-bdii" class="card card-body border-green course">
+					<span class="close"><a href="#"><i class="material-icons close-icon">close</i></a></span>
+					<div class="row">
+						<span class="col-lg-6">
+							<p><strong>Ementa:</strong><br />Conceitos avançados sobre Banco de dados, estruturas de armazenamento de dados (BTree), Modelagem de sistemas de bancos de dados, segurança dos dados, ética e regras para Indexação dos dados, técnicas para aperfeiçoar a coleta dos dados (tunning). Programação para bancos de dados, stored procedures, visões, triggers. Conceitos básicos de Datawarehouse, Data Mining e OLAP.</p>
+							<p><strong>Eixo:</strong> Tecnológico</p>
+							<p><strong>Carga horária total:</strong> 80 h/a&emsp;&emsp;<strong>Nº de créditos:</strong> 4</p>
+							<p><strong>Carga horária semanal:</strong> 4 h/a</p>
+							<p><strong>Pré-requisito:</strong> Banco de dados I</p>
+						</span>
+						<span class="course-description col-lg-6">
+							<p><strong>Bibliografia básica:</strong><br />DATE, C. J. <strong>Introdução a sistemas de bancos de dados.</strong> 8. ed. Rio de Janeiro: Campus, 2004.<br />ELMASRI, R.; NAVATHE, S. B. <strong>Sistemas de banco de dados.</strong> São Paulo: Pearson Brasil, 2005.<br />KORTH, H.F.; SILBERSCHATZ, A. <strong>Sistema de Banco de Dados.</strong> 3a. ed. São Paulo: Makron Books, 1999.</p>
+							<p><strong>Bibliografia complementar:</strong><br />ABREU, M.; MACHADO, F. N. R. <strong>Projeto de banco de dados: uma visão prática.</strong> São Paulo: Érica, 2004.<br />GUIMARÃES, C. C. <strong>Fundamentos de banco de dados: modelagem, projeto e linguagem SQL</strong> Campinas: Unicamp, 2003.<br />MACHADO, F. N. <strong>Banco de dados: projeto e implementação.</strong> São Paulo: Érica, 2004.</p>
+						</span>
+					</div>
+				</div>
+				<div id="course-description-estatistica" class="card card-body border-green course">
+					<span class="close"><a href="#"><i class="material-icons close-icon">close</i></a></span>
+					<div class="row">
+						<span class="col-lg-6">
+							<p><strong>Ementa:</strong><br />Conceitos básicos e divisão da estatística, tipos de variáveis e de levantamentos. Séries e gráficos estatísticos. Estatística descritiva. Probabilidade, variáveis aleatórias, distribuição de probabilidade e modelos probabilísticos. Correlação e regressão linear simples. Aplicações de software estatísticos com uso do computador. Desenvolvimento de pesquisas na área de sistemas de informação.</p>
+							<p><strong>Eixo:</strong> Básico</p>
+							<p><strong>Carga horária total:</strong> 80 h/a&emsp;&emsp;<strong>Nº de créditos:</strong> 4</p>
+							<p><strong>Carga horária semanal:</strong> 4 h/a</p>
+							<p><strong>Pré-requisito:</strong> Matemática discreta</p>
+						</span>
+						<span class="course-description col-lg-6">
+							<p><strong>Bibliografia básica:</strong><br />TRIOLA, M. F. <strong>Introdução à Estatística.</strong> 10. ed. Rio de Janeiro: LTC, 2008.<br />SOARES, J. F. <strong>Introdução à estatística.</strong> 2. ed. Rio de Janeiro: LTC, 2002.<br />REIS, M. M.; BARBETTA, P. A.; BORNIA, A. C. <strong>Estatística para cursos de engenharia e informática.</strong> São Paulo: Atlas, 2004.</p>
+							<p><strong>Bibliografia complementar:</strong><br />LAPPONI, J. C. <strong>Estatística usando Excel.</strong> São Paulo: Lapponi, 2005.<br />SILVA, E. M. de et al. <strong>Estatística para os cursos de economia, administração e ciências contábeis.</strong> São Paulo: Atlas, 2004.<br />VIEIRA, S.; HOFFMANN, R. <strong>Elementos de Estatística.</strong> São Paulo: Atlas, 2003.</p>
+						</span>
+					</div>
+				</div>
+				<div id="course-description-ia" class="card card-body border-green course">
+					<span class="close"><a href="#"><i class="material-icons close-icon">close</i></a></span>
+					<div class="row">
+						<span class="col-lg-6">
+							<p><strong>Ementa:</strong><br />Fundamentos de inteligência artificial. Instrumentos e controle por computador. Lógica, dedução e representação de conhecimentos. Métodos de otimização numérica. Desenvolvimento de sistemas inteligentes. Características associadas à inteligência no comportamento humano. Compreensão da linguagem, aprendizado, raciocínio e resolução de problemas. Grafos de planejamento, agentes de inter-redes inferência probabilística exata. Soluções inteligentes para os mais diversos problemas.</p>
+							<p><strong>Eixo:</strong> Tecnológico</p>
+							<p><strong>Carga horária total:</strong> 80 h/a&emsp;&emsp;<strong>Nº de créditos:</strong> 4</p>
+							<p><strong>Carga horária semanal:</strong> 4 h/a</p>
+							<p><strong>Pré-requisito:</strong> Estatística computacional</p>
+						</span>
+						<span class="course-description col-lg-6">
+							<p><strong>Bibliografia básica:</strong><br />RUSSELL, S. J.; NORVIG, P. <strong>Inteligência artificial.</strong> Rio de Janeiro: Campus, 2004.<br />ALDISS, B. W. <strong>Inteligência artificial.</strong> Lisboa: Livros do Brasil, 2001.<br />SIMOES, A. B.; COSTA, E. <strong>Inteligência artificial.</strong> Fundamentos e aplicações. Lisboa: FCA, 2004.</p>
+							<p><strong>Bibliografia complementar:</strong><br />FERNANDES, A. M. da R. <strong>Inteligência artificial - noções gerais.</strong> Florianópolis: Visual Books, 2003.<br />LUGER, G. F. <strong>Inteligência artificial.</strong> Porto Alegre: Bookman, 2004.<br />NASCIMENTO JUNIOR, C. L.; YONEYAMA, T. <strong>Inteligência artificial em controle e automação.</strong> São Paulo: Edgard Blucher, 2000.<br />WHITBY, B. <strong>Inteligência artificial: um guia para iniciantes.</strong> São Paulo: Madras, 2004.</p>
+						</span>
+					</div>
+				</div>
+				<div id="course-description-cg" class="card card-body border-green course">
+					<span class="close"><a href="#"><i class="material-icons close-icon">close</i></a></span>
+					<div class="row">
+						<span class="col-lg-6">
+							<p><strong>Ementa:</strong><br />Noções de percepção visual humana. Transformações geométricas. Representações de curvas e superfícies. Técnicas de modelagem geométrica. Sistema de cores. Modelos de iluminação. Realismo e animação. Shaders.</p>
+							<p><strong>Eixo:</strong> Tecnológico</p>
+							<p><strong>Carga horária total:</strong> 40 h/a&emsp;&emsp;<strong>Nº de créditos:</strong> 2</p>
+							<p><strong>Carga horária semanal:</strong> 2 h/a</p>
+							<p><strong>Pré-requisito:</strong> Estatística computacional</p>
+						</span>
+						<span class="course-description col-lg-6">
+							<p><strong>Bibliografia básica:</strong><br />AZEVEDO, E.; CONCI, A.; LETA, F. <strong>Computação Gráfica: volume 2.</strong> Elsevier, 2008.<br />VELHO, L.; GOMES, J. <strong>Fundamentos da Computação Gráfica.</strong> Rio de Janeiro: IMPA, 2003.<br />HEARN, D.; BAKER, M. P. <strong>Computer Graphics: C version.</strong> Prentice-Hall, 1997.</p>
+							<p><strong>Bibliografia complementar:</strong><br />WATT, A. <strong>3D Computer Graphics.</strong> USA: Addison Wesley, 1999.<br />HEARN, D.; BAKER, M. P. <strong>Computer Graphics With Opengl.</strong> USA: Prentice Hall, 2003.<br />ANGEL, E. <strong>Interactive computer graphics – a top down approach with OpenGl, Reading</strong> Ma, Addison-Wesley, 2000.</p>
+						</span>
+					</div>
+				</div>
+				<div id="course-description-contabilidade" class="card card-body border-green course">
+					<span class="close"><a href="#"><i class="material-icons close-icon">close</i></a></span>
+					<div class="row">
+						<span class="col-lg-6">
+							<p><strong>Ementa:</strong><br />Esquema básico da contabilidade e finanças. Custo nos diversos segmentos econômicos. Sistemas de custos. Auditoria. Qualidade. Contabilidade de custos. Critério de custos aplicados aos materiais. Mão-de-obra direta. Despesas indiretas. Sistemas básicos de custeio. Noções de contabilidade de custos para tomada de decisões. Análise dos custos. Técnicas para tomada de decisões e planejamento.</p>
+							<p><strong>Eixo:</strong> Complementar</p>
+							<p><strong>Carga horária total:</strong> 40 h/a&emsp;&emsp;<strong>Nº de créditos:</strong> 2</p>
+							<p><strong>Carga horária semanal:</strong> 2 h/a</p>
+							<p><strong>Pré-requisito:</strong> Matemática discreta</p>
+						</span>
+						<span class="course-description col-lg-6">
+							<p><strong>Bibliografia básica:</strong><br />CHINA, H. Y. <strong>Gestão baseada em custeio por atividade.</strong> São Paulo: Atlas, 2001.<br />CREPALDI, S. A. <strong>Curso básico de contabilidade de custos.</strong> São Paulo: Atlas, 2003.<br />MARION, J. C. <strong>Contabilidade empresarial.</strong> São Paulo: Atlas, 2003.</p>
+							<p><strong>Bibliografia complementar:</strong><br />IBRACON, I. B. C. <strong>Custos - ferramentas de gestão.</strong> São Paulo: Atlas, 2000.<br />LEONE, G. S. G. <strong>Curso de contabilidade de custos.</strong> São Paulo: Atlas, 2000.<br />MARTINS, E. <strong>Contabilidade de custos.</strong> São Paulo: Atlas, 2003.</p>
+						</span>
+					</div>
+				</div>
+				<div id="course-description-ingles" class="card card-body border-green course">
+					<span class="close"><a href="#"><i class="material-icons close-icon">close</i></a></span>
+					<div class="row">
+						<span class="col-lg-6">
+							<p><strong>Ementa:</strong><br />Aspectos gramaticais e morfológicos pertinentes à compreensão. Desenvolvimento e ampliação das estratégias de leitura.</p>
+							<p><strong>Eixo:</strong> Complementar</p>
+							<p><strong>Carga horária total:</strong> 40 h/a&emsp;&emsp;<strong>Nº de créditos:</strong> 2</p>
+							<p><strong>Carga horária semanal:</strong> 2 h/a</p>
+							<p><strong>Pré-requisito:</strong> Nenhum</p>
+						</span>
+						<span class="course-description col-lg-6">
+							<p><strong>Bibliografia básica:</strong><br />BOECKNER, K.; BROWN, P. C. <strong>Oxford English for computing.</strong> Oxford: OUP, 1996.<br />CRUZ, D. T.; ROSAS, M.; SILVA, A. V. <strong>Inglês com textos para informática.</strong> Salvador: UFBA, 2003.<br />GLENDINNING, E. H.; McEWAN .J. <strong>Basic english for computing.</strong> Oxford: OUP, 2004.</p>
+							<p><strong>Bibliografia complementar:</strong><br />CAMPOS, L. de <strong>Dicionário de gestão & negócios - inglês-português.</strong> São Paulo: Clássica, 2000.<br />COLLIN, S. <strong>Dictionary of computing.</strong> London: Bloomsbury, 2004.<br />DAINTITH, J. <strong>Dictionary of computing.</strong> Oxford: OUP, 2004.<br />THOMSON, A. J.; MARTINET, A. V. <strong>A practical english grammar.</strong> Oxford: OUP, 2000.</p>
 						</span>
 					</div>
 				</div>
@@ -110,15 +226,15 @@
 						<tr>
 							<td id="calculo" class="exb" data-toggle="tooltip" data-placement="bottom" title="Cálculo diferencial e integral">Cálculo</td>
 							<td id="discreta" class="exb" data-toggle="tooltip" data-placement="bottom" title="Matemática discreta">Discreta</td>
-							<td class="ext">BD I</td>
-							<td class="ext">BD II</td>
-							<td class="exb">Estatística</td>
-							<td class="ext">IA</td>
-							<td class="ext">Computação gráfica</td>
-							<td class="exc">Contabilidade</td>
+							<td id="bdi" class="ext" data-toggle="tooltip" data-placement="bottom" title="Banco de dados I">BD I</td>
+							<td id="bdii" class="ext" data-toggle="tooltip" data-placement="bottom" title="Banco de dados II">BD II</td>
+							<td id="estatistica" class="exb" data-toggle="tooltip" data-placement="bottom" title="Estatística computacional">Estatística</td>
+							<td id="ia" class="ext" data-toggle="tooltip" data-placement="bottom" title="Inteligência artificial">IA</td>
+							<td id="cg" class="ext" data-toggle="tooltip" data-placement="bottom" title="Computação gráfica">Computação gráfica</td>
+							<td id="contabilidade" class="exc" data-toggle="tooltip" data-placement="bottom" title="Contabilidade e finanças">Contabilidade</td>
 						</tr>
 						<tr>
-							<td class="exc">Inglês</td>
+							<td id="ingles" class="exc" data-toggle="tooltip" data-placement="bottom" title="Inglês instrumental">Inglês</td>
 							<td class="exb">Lógica</td>
 							<td class="exc">Metodologia</td>
 							<td class="ext">APS I</td>
@@ -223,24 +339,6 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 	<!-- Javascript com JQuery -->
-	<script type="text/javascript">
-		$("#course-description-calculo").hide();
-		$("#course-description-discreta").hide();
-		$("#calculo").click(function() {
-				$(".course").hide();
-				$("#course-description-calculo").show();
-				$(document).scrollTop( $("#course-description").offset().top );
-			});
-		$("#discreta").click(function() {
-			$(".course").hide();
-			$("#course-description-discreta").show();
-			$(document).scrollTop( $("#course-description").offset().top );
-		});
-	</script>
-	<script type="text/javascript">
-		$(function () {
-			$('[data-toggle="tooltip"]').tooltip()
-		})
-	</script>
+	<script type="text/javascript" src="../js/disciplinas.js"></script>
 </body>
 </html>
