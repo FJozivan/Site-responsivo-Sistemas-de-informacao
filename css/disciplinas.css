@@ -3,6 +3,10 @@ table {
 	background-color: white !important;
 }
 
+table tbody tr td {
+	height: 49px !important;
+}
+
 .close {
 	text-align: right;
 }
