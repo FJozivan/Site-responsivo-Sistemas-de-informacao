@@ -19,34 +19,42 @@
 </head>
 <body>
 	<!-- Navbar begin -->
-	<div id="main-navbar" class="container-fluid">
-		<div class="row padding-top-18">
-			<div class="col-md-3">
-				<a id="logo-link" href="../index.html">
-					<img id="logo" src="../img/ifce_svg.png">
-					<span id="si">Sistemas de Informação</span>
-				</a>
-			</div>
-			<div class="col-md-9 d-none d-md-block container-fluid">
-				<span class="row margin-left-10">
-					<span class="margin-right-40"><a class="navbar-link" href="../index.html">Página Inicial</a></span>
-					<span class="margin-right-40"><a class="navbar-link" href="disciplinas.html">Disciplinas</a></span>
-					<span class="margin-right-40"><a class="navbar-link" href="professores.html">Professores</a></span>
-					<span class="margin-right-40"><a class="navbar-link" href="estagiarios.html">Estagiários</a></span>
-					<span class="margin-right-40 dropdown">
-						<a class="navbar-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Laboratórios
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="lais.html">LaIS</a>
-							<a class="dropdown-item" href="leds.html">LEDS</a>
-							<a class="dropdown-item" href="#">LITE</a>
-						</div>
-					</span>
-				</span>
-			</div>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+		<a id="logo-link" class="navbar-brand" href="../index.html">
+			<img id="logo" src="../img/ifce_svg.png">
+			<span id="si">Sistemas de Informação</span>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse margin-left-80" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link margin-right-40" href="../index.html">Página Inicial</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link margin-right-40" href="disciplinas.html">Disciplinas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link margin-right-40" href="professores.html">Professores</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link margin-right-40" href="estagiarios.html">Estagiários</a>
+				</li>
+				<li class="nav-item dropdown margin-right-40">
+					<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Laboratórios
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="lais.html">LaIS</a>
+						<a class="dropdown-item" href="leds.html">LEDS</a>
+						<a class="dropdown-item active" href="#">LITE <span class="sr-only">(current)</span></a>
+					</div>
+				</li>
+			</ul>
 		</div>
-	</div>
+	</nav>
 	<!-- Navbar end -->
 	<!-- Main begin -->
 	<main>
@@ -101,11 +109,11 @@
 	<footer id="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4">
+				<div class="col-md col-lg-4">
 					<p class="footer-title">Sistemas de Informação</p>
 					<p class="align-justify">O Bachareledo em Sistemas de Informação tem como objetivo formar profissionais para atuar em atividades ligadas a administração do fluxo de informações geradas e distribuídas por redes de computadores dentro de uma organização (planejamento e organização do processamento, armazenamento, recuperação e disponibilização das informações), além de funções relacionadas a suporte aos usuários e infraestrutura tecnológica.</p>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-md col-lg-4">
 					<p class="footer-title">Desenvolvedores</p>
 					<p class="align-center">
 						<a href="https://www.facebook.com/darcanjo.baal">José Aderbal Aragão Filho</a><br />
@@ -117,7 +125,7 @@
 						<a href="https://www.facebook.com/ViniciusMatosMedeiros">Vinícius Matos Medeiros</a><br />
 					</p>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-md col-lg-4">
 					<p class="footer-title">Contato IFCE Crato</p>
 					<p>
 						<p><i class="material-icons footer-icon">phone</i>&emsp;(88) 3586-8151</p>
@@ -126,7 +134,7 @@
 					</p>
 				</div>
 			</div>
-			<p class="align-center">&copy; Copyright 2018 - Todos os direitos reservados.</p>
+			<p class="align-center margin-top-10">&copy; Copyright 2018 - Todos os direitos reservados.</p>
 		</div>
 	</footer>
 	<!-- Footer end -->

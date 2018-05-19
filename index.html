@@ -19,43 +19,51 @@
 </head>
 <body>
 	<!-- Navbar begin -->
-	<div id="main-navbar" class="container-fluid">
-		<div class="row padding-top-18">
-			<div class="col-md-3">
-				<a id="logo-link" href="#">
-					<img id="logo" src="img/ifce_svg.png">
-					<span id="si">Sistemas de Informação</span>
-				</a>
-			</div>
-			<div class="col-md-9 d-none d-md-block container-fluid">
-				<span class="row margin-left-10">
-					<span class="margin-right-40"><a class="navbar-link" href="#">Página Inicial</a></span>
-					<span class="margin-right-40"><a class="navbar-link" href="html/disciplinas.html">Disciplinas</a></span>
-					<span class="margin-right-40"><a class="navbar-link" href="#">Professores</a></span>
-					<span class="margin-right-40"><a class="navbar-link" href="#">Estagiários</a></span>
-					<span class="margin-right-40 dropdown">
-						<a class="navbar-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Laboratórios
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="html/lais.html">LaIS</a>
-							<a class="dropdown-item" href="html/leds.html">LEDS</a>
-							<a class="dropdown-item" href="html/lite.html">LITE</a>
-						</div>
-					</span>
-				</span>
-			</div>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+		<a id="logo-link" class="navbar-brand" href="#">
+			<img id="logo" src="img/ifce_svg.png">
+			<span id="si">Sistemas de Informação</span>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse margin-left-80" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link margin-right-40" href="#">Página Inicial <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link margin-right-40" href="html/disciplinas.html">Disciplinas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link margin-right-40" href="html/professores.html">Professores</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link margin-right-40" href="html/estagiarios.html">Estagiários</a>
+				</li>
+				<li class="nav-item dropdown margin-right-40">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Laboratórios
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="html/lais.html">LaIS</a>
+						<a class="dropdown-item" href="html/leds.html">LEDS</a>
+						<a class="dropdown-item" href="html/lite.html">LITE</a>
+					</div>
+				</li>
+			</ul>
 		</div>
-	</div>
+	</nav>
 	<!-- Navbar end -->
-	<!-- Exemplo -->
+	<!-- Main begin -->
 	<main>
 		<div class="jumbotron container-fluid">
 			<div class="row">
 				<div class="col-sm-3"></div>
-				<img class="col-sm-1" height="100" style="margin-top: -20px;" src="img/ifce_svg.png" />
+				<img class="col-sm-1 margin-top--20" height="100" src="img/ifce_svg.png" />
 				<h1 class="col-sm-4 display-4" align="right">Seja bem vindo!</h1>
-				<img class="col-sm-3" height="150" style="margin-top: -30px;" src="img/sistemas.png" />
+				<img class="col-sm-3 margin-top--30" height="150" src="img/sistemas.png" />
 				<div class="col-sm-1"></div>
 			</div>
 			<div class="row">
@@ -65,25 +73,25 @@
 			<p class="lead align-center">Acesse as informações do curso no menu acima ou leia as descrições abaixo</p>-->
 		</div>
 		<div class="container"><br /><br /><br />
-			<div style="margin-bottom: 20px;" class="row">
+			<div class="row margin-bottom-20">
 				<h3 class="align-center col-sm-12">Apresentação</h3>
-				<p style="margin-top: 20px; text-align: justify;">O curso foi pensado em 2009 com a finalidade de expandir a oferta de ensino superior na área de informação e comunicação para os alunos egressos do ensino médio e suprir as necessidades de profissionais qualificados e aptos a desenvolverem práticas de trabalho modernas para atuarem nas empresas que estão sendo criadas, considerando que a região do Cariri vem crescendo vertiginosamente nos últimos tempos.</p>
-				<p align="justify">Sua estrutura curricular relaciona teoria e prática por meio da articulação de disciplinas que estão dispostas em quatro eixos de formação: Formação Básica que engloba os conhecimentos fundamentais à formação na área de atuação; Formação Tecnológica que aborda os conhecimentos específicos inerentes à sua formação profissional; Formação Complementar que se propõe a desenvolver atividades que possibilitem o exercício da profissão numa perspectiva interdisciplinar e integradora e a Formação Humanística que perpassa pelos demais eixos com o intuito de formar um profissional ético e reflexivo</p>
+				<p class="align-justify margin-top-20">O curso foi pensado em 2009 com a finalidade de expandir a oferta de ensino superior na área de informação e comunicação para os alunos egressos do ensino médio e suprir as necessidades de profissionais qualificados e aptos a desenvolverem práticas de trabalho modernas para atuarem nas empresas que estão sendo criadas, considerando que a região do Cariri vem crescendo vertiginosamente nos últimos tempos.</p>
+				<p class="align-justify">Sua estrutura curricular relaciona teoria e prática por meio da articulação de disciplinas que estão dispostas em quatro eixos de formação: Formação Básica que engloba os conhecimentos fundamentais à formação na área de atuação; Formação Tecnológica que aborda os conhecimentos específicos inerentes à sua formação profissional; Formação Complementar que se propõe a desenvolver atividades que possibilitem o exercício da profissão numa perspectiva interdisciplinar e integradora e a Formação Humanística que perpassa pelos demais eixos com o intuito de formar um profissional ético e reflexivo</p>
 			</div>
 		</div><br /><br /><br />
 		<div class="jumbotron container-fluid">
 			<div class="row">
 				<div class="col-md">
-					<h3 align="center">Sobre o IFCE</h3>
-					<p align="justify" style="margin-top: 40px;">Localizado no sopé da Chapada do Araripe, hoje o campus tem uma área total de 146,64 hectares que, além das salas de aula e dos setores administrativos, conta com laboratórios, biblioteca, setor artístico e setores produtivos. No Crato, o IFCE manteve-se no ensino agropecuário, mas também expandiu sua área de atuação, de acordo com as demandas e necessidades da região. Atualmente, o campus oferece os cursos técnicos de Informática para Internet e Agropecuária, no Ensino Médio Integrado, Agropecuária, no Ensino Técnico Subsequente, e as graduações de Sistemas de Informação e Zootecnia.</p>
+					<h3 class="align-center">Sobre o IFCE</h3>
+					<p class="align-justify margin-top-40">Localizado no sopé da Chapada do Araripe, hoje o campus tem uma área total de 146,64 hectares que, além das salas de aula e dos setores administrativos, conta com laboratórios, biblioteca, setor artístico e setores produtivos. No Crato, o IFCE manteve-se no ensino agropecuário, mas também expandiu sua área de atuação, de acordo com as demandas e necessidades da região. Atualmente, o campus oferece os cursos técnicos de Informática para Internet e Agropecuária, no Ensino Médio Integrado, Agropecuária, no Ensino Técnico Subsequente, e as graduações de Sistemas de Informação e Zootecnia.</p>
 				</div>
 				<div class="col-md">
-					<h3 align="center">Missão do IFCE</h3>
-					<p align="justify" style="margin-top: 40px;">Produzir, disseminar e aplicar os conhecimentos científicos e tecnológicos na busca de participar integralmente da formação do cidadão, tornando-a mais completa, visando sua total inserção social, política, cultural e ética.</p>
+					<h3 class="align-center">Missão do IFCE</h3>
+					<p class="align-justify margin-top-40">Produzir, disseminar e aplicar os conhecimentos científicos e tecnológicos na busca de participar integralmente da formação do cidadão, tornando-a mais completa, visando sua total inserção social, política, cultural e ética.</p>
 				</div>
 				<div class="col-md">
-					<h3 align="center">Organização do curso</h3>
-					<p style="margin-top: 40px;"><strong>Área de estudo</strong>: Informação e Comunicação</p>
+					<h3 class="align-center">Organização do curso</h3>
+					<p class="margin-top-40"><strong>Área de estudo</strong>: Informação e Comunicação</p>
 					<p><strong>Modalidade</strong>: Bacharelado.</p>
 					<p><strong>Duração</strong>: 8 semestres (4 anos).</p>
 					<p><strong>Forma de ingresso</strong>: SISU.</p>
@@ -94,50 +102,50 @@
 			</div>
 		</div>
 		<div class="container">
-			<div style="margin-bottom: 20px;" class="row">
-				<a href="html/disciplinas.html" class="link-boxes" style="position: relative; background-color: cyan; height: 315px; width: 315px;">
-					<img class="img-boxes" style="height: 315px;" src="img/disciplinas.png">
-					<span style="position: absolute; margin-top: -200px; color: white; font-size: 50px; margin-left: 35px; font-weight: bold;">Disciplinas</span>
+			<div class="row margin-bottom-20">
+				<a href="html/disciplinas.html" class="link-boxes">
+					<img class="img-boxes height-315" src="img/disciplinas.png">
+					<span class="margin-top--200 margin-left-35">Disciplinas</span>
 				</a>
 				<div class="col-md-1"></div>
-				<a href="#" class="link-boxes" style="position: relative; background-color: cyan; height: 315px; width: 315px;">
-					<img class="img-boxes" style="height: 315px;" src="img/professores.jpg">
-					<span style="position: absolute; margin-top: -200px; color: white; font-size: 50px; margin-left: 25px; font-weight: bold;">Professores</span>
+				<a href="#" class="link-boxes">
+					<img class="img-boxes height-315" src="img/professores.jpg">
+					<span class="margin-top--200 margin-left-25">Professores</span>
 				</a>
 				<div class="col-md-1"></div>
-				<a href="#" class="link-boxes" style="position: relative; background-color: cyan; height: 315px; width: 315px;">
-					<img class="img-boxes" style="height: 315px;" src="img/estagiarios.jpg">
-					<span style="position: absolute; margin-top: -200px; color: white; font-size: 50px; margin-left: 30px; font-weight: bold;">Estagiários</span>
+				<a href="#" class="link-boxes">
+					<img class="img-boxes height-315" src="img/estagiarios.jpg">
+					<span class="margin-top--200 margin-left-30">Estagiários</span>
 				</a>
 			</div>
 			<div class="row">
-				<a href="html/lais.html" class="link-boxes" style="position: relative; background-color: cyan; height: 315px; width: 315px;">
-					<img class="img-boxes" style=" width: 315px; margin-top: 60px;" src="img/lais_logo.png">
-					<span style="position: absolute; margin-top: -130px; color: white; font-size: 50px; margin-left: 105px; font-weight: bold;">LaIS</span>
+				<a href="html/lais.html" class="link-boxes">
+					<img class="img-boxes width-315 margin-top-60" src="img/lais_logo.png">
+					<span class="margin-left-105 margin-top--130">LaIS</span>
 				</a>
 				<div class="col-md-1"></div>
-				<a href="html/leds.html" class="link-boxes" style="position: relative; background-color: cyan; height: 315px; width: 315px;">
-					<img class="img-boxes" style=" width: 315px; margin-top: 110px;" src="img/leds_logo.png">
-					<span style="position: absolute; margin-top: -85px; color: white; font-size: 50px; margin-left: 105px; font-weight: bold;">LEDS</span>
+				<a href="html/leds.html" class="link-boxes">
+					<img class="img-boxes width-315 margin-top-110" src="img/leds_logo.png">
+					<span class="margin-left-105 margin-top--85">LEDS</span>
 				</a>
 				<div class="col-md-1"></div>
-				<a href="html/lite.html" class="link-boxes" style="position: relative; background-color: cyan; height: 315px; width: 315px;">
-					<img class="img-boxes" style=" width: 315px; margin-top: 85px;" src="img/lite_logo.png">
-					<span style="position: absolute; margin-top: -115px; color: white; font-size: 50px; margin-left: 105px; font-weight: bold;">LITE</span>
+				<a href="html/lite.html" class="link-boxes">
+					<img class="img-boxes width-315 margin-top-85" src="img/lite_logo.png">
+					<span class="margin-left-105 margin-top--115">LITE</span>
 				</a>
 			</div>
 		</div>
 	</main>
-	<!-- Exemplo -->
+	<!-- Main end -->
 	<!-- Footer begin -->
 	<footer id="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4">
+				<div class="col-md col-lg-4">
 					<p class="footer-title">Sistemas de Informação</p>
 					<p class="align-justify">O Bachareledo em Sistemas de Informação tem como objetivo formar profissionais para atuar em atividades ligadas a administração do fluxo de informações geradas e distribuídas por redes de computadores dentro de uma organização (planejamento e organização do processamento, armazenamento, recuperação e disponibilização das informações), além de funções relacionadas a suporte aos usuários e infraestrutura tecnológica.</p>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-md col-lg-4">
 					<p class="footer-title">Desenvolvedores</p>
 					<p class="align-center">
 						<a href="https://www.facebook.com/darcanjo.baal">José Aderbal Aragão Filho</a><br />
@@ -149,7 +157,7 @@
 						<a href="https://www.facebook.com/ViniciusMatosMedeiros">Vinícius Matos Medeiros</a><br />
 					</p>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-md col-lg-4">
 					<p class="footer-title">Contato IFCE Crato</p>
 					<p>
 						<p><i class="material-icons footer-icon">phone</i>&emsp;(88) 3586-8151</p>
@@ -158,7 +166,7 @@
 					</p>
 				</div>
 			</div>
-			<p class="align-center">&copy; Copyright 2018 - Todos os direitos reservados.</p>
+			<p class="align-center margin-top-10">&copy; Copyright 2018 - Todos os direitos reservados.</p>
 		</div>
 	</footer>
 	<!-- Footer end -->
@@ -171,15 +179,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-	<script type="text/javascript">
-		$(".link-boxes").children("span").hide();
-		$(".link-boxes").hover(function() {
-			$(this).children("img").css('opacity', 0.3);
-			$(this).children("span").show();
-		}, function() {
-			$(this).children("img").css('opacity', 1);
-			$(this).children("span").hide();
-		});
-	</script>
+	<script type="text/javascript" src="js/home.js"></script>
 </body>
 </html>
