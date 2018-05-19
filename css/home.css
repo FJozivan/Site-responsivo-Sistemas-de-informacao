@@ -9,11 +9,97 @@ main {
 	flex: 1 0 auto;
 }
 
+.height-315 {
+	height: 315px;
+}
+
+.img-boxes:hover {
+	opacity: 0.3;
+}
+
 .jumbotron {
 	background-color: green;
 	color: white;
 }
 
-.img-boxes:hover {
-	opacity: 0.3;
+.link-boxes {
+	position: relative;
+	background-color: cyan;
+	height: 315px;
+	width: 315px;
+}
+
+.link-boxes span {
+	position: absolute;
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+
+.margin-left-25 {
+	margin-left: 25px;
+}
+
+.margin-left-30 {
+	margin-left: 30px;
+}
+
+.margin-left-35 {
+	margin-left: 35px;
+}
+
+.margin-left-105 {
+	margin-left: 105px;
+}
+
+.margin-top-20 {
+	margin-top: 20px;
+}
+
+.margin-top--20 {
+	margin-top: -20px;
+}
+
+.margin-top--200 {
+	margin-top: -200px;
+}
+
+.margin-top--30 {
+	margin-top: -30px;
+}
+
+.margin-top-40 {
+	margin-top: 40px;
+}
+
+.margin-top-60 {
+	margin-top: 60px;
+}
+
+.margin-top-85 {
+	margin-top: 85px;
+}
+
+.margin-top--85 {
+	margin-top: -85px;
+}
+
+.margin-top-110 {
+	margin-top: 110px;
+}
+
+.margin-top--115 {
+	margin-top: -115px;
+}
+
+.margin-top--130 {
+	margin-top: -130px;
+}
+
+.width-315 {
+	width: 315px;
 }
