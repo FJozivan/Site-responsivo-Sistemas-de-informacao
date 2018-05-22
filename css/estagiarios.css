@@ -1,0 +1,71 @@
+.contain {
+  margin-top: 1%;
+  margin-left: 25%;
+  width:50%;
+  position: relative;
+  height: 50px;
+}
+input {
+  height: 50px;
+  background-color: white;
+  border: none;
+  outline: none;
+  padding-left: 50px;
+  width: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 1px 1px 12px;
+  /*background: none;*/
+  z-index: 3;
+  transition: width 1s ease-out;
+  cursor: pointer;
+}
+input { 
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  width: 100%;
+  z-index: 1;
+  transition: width 1s ease-in;
+}
+.s { 
+  height: 50px;
+  width: 50px;
+  /*background:  url("lupa.png")  center no-repeat;*/
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+.s:focus {
+  outline: none;
+}
+/* esconde o LABEL "Buscar" */
+label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;	
+}
+.teste{
+  margin-left: 50px;
+}
+img{
+
+}
+.cards{
+  background-color: #37A64A;
+  border-radius: 20px;
+}
+.avatar{
+  max-width: 10%;
+  max-height: 10%;
+  background-color: #B8C9E7;
+  border-radius: 30px
+}
