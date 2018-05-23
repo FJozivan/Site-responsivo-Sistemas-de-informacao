@@ -1,3 +1,6 @@
+body{
+  background-color: #CCFFCC;
+}
 .contain {
   margin-top: 1%;
   margin-left: 25%;
@@ -7,7 +10,6 @@
 }
 input {
   height: 50px;
-  background-color: white;
   border: none;
   outline: none;
   padding-left: 50px;
@@ -16,10 +18,11 @@ input {
   top: 0;
   left: 0;
   box-shadow: 1px 1px 12px;
-  /*background: none;*/
+  background: white;
   z-index: 3;
   transition: width 1s ease-out;
   cursor: pointer;
+  border-radius: 25px;
 }
 input { 
   border: 1px solid #ccc;
@@ -36,8 +39,11 @@ input {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 4;
   cursor: pointer;
+  font-size: 30px !important; 
+  margin-top: 10px;
+  margin-left: 10px;
 }
 .s:focus {
   outline: none;
@@ -56,16 +62,20 @@ label {
 .teste{
   margin-left: 50px;
 }
-img{
-
-}
 .cards{
   background-color: #37A64A;
   border-radius: 20px;
+  padding: 4%;
+  margin-top: 10px;
 }
 .avatar{
   max-width: 10%;
   max-height: 10%;
   background-color: #B8C9E7;
-  border-radius: 30px
+  border-radius: 50px
+}
+.hrs{
+  border:1px solid black; 
+  margin-top: 2px; 
+  margin-bottom: 2px;
 }
