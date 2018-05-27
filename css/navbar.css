@@ -15,8 +15,8 @@ main {
 }
 
 .navbar {
-	background-color: #699DDE !important;
-	box-shadow: 0px 2px 2px #EEEEEE;
+	background-color: #6290C3 !important; /* #699DDE */
+	box-shadow: 0px 2px 2px #DDDDDD;
 }
 
 #logo {
@@ -30,7 +30,7 @@ main {
 }
 
 #si {
-	color: #DDDDDD;
+	/*color: #DDDDDD;*/
 	margin-left: 5px;
 	font-size: 15px;
 }

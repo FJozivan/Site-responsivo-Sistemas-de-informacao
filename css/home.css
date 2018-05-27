@@ -1,5 +1,5 @@
 body {
-	background-color: #CCFFCC;
+	background-color: #C6EBBE; /*#CCFFCC*/
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
@@ -18,13 +18,13 @@ main {
 }
 
 .jumbotron {
-	background-color: green;
+	background-color: #008148; /* green */
 	color: white;
 }
 
 .link-boxes {
 	position: relative;
-	background-color: cyan;
+	background-color: #87C38F;/*cyan*/
 	height: 315px;
 	width: 315px;
 }

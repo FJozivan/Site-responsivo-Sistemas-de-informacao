@@ -18,6 +18,10 @@ table tbody tr td {
 	margin-right: -25px;
 }
 
+.course {
+	margin-top: 15px;
+}
+
 .course-description {
 	border-left: 1px solid green;
 }
@@ -28,7 +32,7 @@ table tbody tr td {
 
 /* DISCIPLINA 2*/
 body {
-	background-color: #CCFFCC;
+	background-color: #C6EBBE;
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
@@ -64,19 +68,19 @@ main {
 }
 
 .exb {
-	background-color: grey;
+	background-color: #A0C1B9; /*grey*/
 }
 
 .exc {
-	background-color: orange;
+	background-color: #008148; /*orange*/
 }
 
 .exh {
-	background-color: lightblue;
+	background-color: #6290C3; /*lightblue*/
 }
 
 .ext {
-	background-color: lightgreen;
+	background-color: #87C38F; /*lightgreen*/
 }
 
 .margin-top-5 {

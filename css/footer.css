@@ -7,13 +7,13 @@
 }
 
 .footer-icon {
-	color: #002288;
+	color: #6290C3; /*#002288*/
 	font-size: 18px !important;
 }
 
 .footer-title {
 	margin-top: 15px;
-	color: #699DDE;
+	color: #6290C3; /*#699DDE*/
 	font-size: 15px;
 	text-align: center;
 }
@@ -27,7 +27,7 @@
 	left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #151515;
+    background-color: #041B15; /*#151515*/
     color: #DDDDDD;
     font-size: 12px;
     margin-top: 10px;
