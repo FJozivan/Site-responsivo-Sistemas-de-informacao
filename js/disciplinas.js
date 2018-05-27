@@ -14,5 +14,5 @@ $(".course-clicks td").click(function() {
 	var id = $(this).attr('id');
 	$(".course").hide();
 	$("#course-description-"+id).show();
-	$(document).scrollTop( $("#course-description").offset().top );
+	$(document).scrollTop( $(".container-fluid").offset().top );
 });

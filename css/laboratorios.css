@@ -1,5 +1,5 @@
 body {
-	background-color: #CCFFCC;
+	background-color: #C6EBBE;
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
@@ -20,7 +20,7 @@ main {
 .collapse-box {
 	margin-top: 10px;
 	font-size: 20px;
-	background-color: #228BFB;
+	background-color: #6290C3; /*#228BFB*/
 	color: #353535;
 }
 
@@ -41,7 +41,7 @@ main {
 }
 
 .color-green {
-	color: green;
+	color: #008148; /*green*/
 }
 
 .font-size-30 {
@@ -75,7 +75,7 @@ main {
 }
 
 #laboratory-title {
-	color: #366AAB;
+	color: #6290C3; /*#366AAB*/
 	font-size: 60px;
 	text-align: center;
 	margin-top: 10px;
