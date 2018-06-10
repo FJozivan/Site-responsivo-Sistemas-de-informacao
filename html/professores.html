@@ -8,16 +8,18 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="../css/home.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/navbar.css">
 	<link rel="stylesheet" type="text/css" href="../css/professores.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	<link rel="stylesheet" type="text/css" href="../css/img.css">
+	<link href="https://fonts.googleapis.com/icon"family=Material+Icons"
 	rel="stylesheet">
 
 	<title>SI IFCE Crato</title>
 	<link rel="icon" href="../img/ifce_logo.png" />
 </head>
-<body>
+<body style="background-color: #C6EBBE;">
 	<!-- Navbar begin -->
 	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 		<a id="logo-link" class="navbar-brand" href="../index.html">
@@ -57,40 +59,30 @@
 	</nav>
 	<!-- Navbar end -->
 	<!-- Main begin -->
-	<main class="container-fluid">
-		<!--<div class="container"></ br></ br>
-			<div class="container-fluid">
-				<!--Teste de container para agrupamento de informações de professores-->
-			<!--</div>
-			<details>
-				<summary class="align-justify margin-top-20">Sidney de Lima Pinto</summary>
-                <p>Graduado em Processamento de Dados pela Universidade Potiguar, UnP (1997). Especialista em Administração de Sistemas para Internet pela Universidade Estadual do Ceará, UECE (2002). Mestre em Computação Aplicada pela Universidade Estadual do Ceará, UECE (2010), área de concentração: Redes de Computadores. Doutor em Engenharia Mecânica (2017), área de concentração: Gestão e Otimização. Atualmente é professor efetivo da Universidade Regional do Cariri (URCA), do Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE) e Coordenador do Curso de Graduação em Sistemas de Informação da Faculdade de Juazeiro do Norte (FJN). Ministra as disciplinas: Programação I e II, Fundamentos de Sistemas de Informação, Marketing.</p>
-				<ul>
-					<li>Link para a plataforma Lattes:</li>
-					<ul>
-                        			<li>http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4709902A0</li>
-                    			</ul>
-				</ul>
-			</details>
-		</div>-->
-		<h3 class="align-center margin-top-80">Professores</h3>
-		<p class="margin-top-10 margin-bottom-30">Clique nos professores para saber mais informações sobre os mesmos.</p>
-		<div class="row">
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#allan" class="card margin-left-10">
-					<img class="card-img-top" src="../img/professores/AllanC.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>Allan Cordeiro Carneiro</b></p>
+	<main class="container-fluid" style="margin-left: -15px; margin-right: -15px;">
+		
+		<h3 class="align-center margin-top-20">Professores</h3>
+		<div class="row" style="margin-left: 5px">
+			<div class="col-lg-12">
+				<p class="margin-top-10 margin-bottom-30">Clique nos professores para saber mais informações sobre os mesmos.</p>
+			</div>
+		</div>
+		<div class="row" style="margin-left: 5px;">
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#allan" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/professores/alan.jpeg" alt="Card image cap">
+					<div align="center">
+						<p><b>Allan Cordeiro Carneiro</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="allan" tabindex="-1" role="dialog" aria-labelledby="allanLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="allanLabel">Allan Cordeiro Carneiro</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -106,21 +98,21 @@
 				</div>
 			</div>
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#andressa" class="card margin-left-10">
-					<img class="card-img-top" src="../img/professores/Andressa.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>Andressa Bezerra Ferreira</b></p>
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#andressa" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/professores/andressa.jpeg" alt="Card image cap" style="">
+					<div align="center">
+						<p><b>Andressa Bezerra Ferreira</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="andressa" tabindex="-1" role="dialog" aria-labelledby="allanLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="allanLabel">Andressa Bezerra Ferreira</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -135,21 +127,21 @@
 				</div>
 			</div>
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#cicero" class="card margin-left-10">
-					<img class="card-img-top" src="../img/silhouette.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>Cícero Carlos Félix de Oliveira</b></p>
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#cicero" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/silhouette.jpg" alt="Card image cap">
+					<div align="center">
+						<p><b>Cícero Carlos Félix de Oliveira</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="cicero" tabindex="-1" role="dialog" aria-labelledby="ciceroLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="ciceroLabel">Cícero Carlos Félix de Oliveira</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -164,21 +156,21 @@
 				</div>
 			</div>
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#david" class="card margin-left-10">
-					<img class="card-img-top" src="../img/professores/David.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>David Wesley Amado Duarte</b></p>
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#david" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/professores/davi.jpeg" alt="Card image cap">
+					<div align="center">
+						<p><b>David Wesley Amado Duarte</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="david" tabindex="-1" role="dialog" aria-labelledby="davidLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="davidLabel">David Wesley Amado Duarte</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -193,21 +185,21 @@
 				</div>
 			</div>
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#francisca" class="card margin-left-10">
-					<img class="card-img-top" src="../img/silhouette.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>Francisca Alves de Souza</b></p>
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#francisca" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/silhouette.jpg" alt="Card image cap">
+					<div align="center">
+						<p><b>Francisca Alves de Souza</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="francisca" tabindex="-1" role="dialog" aria-labelledby="franciscaLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="franciscaLabel">Francisca Alves de Souza</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -222,21 +214,21 @@
 				</div>
 			</div>
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#gil" class="card margin-left-10">
-					<img class="card-img-top" src="../img/professores/Gil.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>Gil Hêanya Parente Landim</b></p>
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#gil" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/professores/gil.jpeg" alt="Card image cap">
+					<div align="center">
+						<p><b>Gil Hêanya Parente Landim</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="gil" tabindex="-1" role="dialog" aria-labelledby="gilLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="gilLabel">Gil Hêanya Parente Landim</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -250,22 +242,24 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="row" style="margin-left: 5px;">
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#guilherme" class="card margin-left-10">
-					<img class="card-img-top" src="../img/silhouette.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>Guilherme Álvaro Maia R. Esmeraldo</b></p>
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#guilherme" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/silhouette.jpg" alt="Card image cap">
+					<div align="center">
+						<p><b>Guilherme Álvaro Maia R. Esmeraldo</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="guilherme" tabindex="-1" role="dialog" aria-labelledby="guilhermeLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="guilhermeLabel">Guilherme Álvaro Maia R. Esmeraldo</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -280,21 +274,21 @@
 				</div>
 			</div>
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#harley" class="card margin-left-10">
-					<img class="card-img-top" src="../img/professores/Harley.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>Harley Macêdo de Melo</b></p>
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#harley" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/professores/harley.jpeg" alt="Card image cap">
+					<div align="center">
+						<p><b>Harley Macêdo de Melo</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="harley" tabindex="-1" role="dialog" aria-labelledby="harleyLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="harleyLabel">Harley Macêdo de Melo</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -309,21 +303,21 @@
 				</div>
 			</div>
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#isaac" class="card margin-left-10">
-					<img class="card-img-top" src="../img/professores/Isaac.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>Isaac Bandeira</b></p>
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#isaac" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/professores/isaac.jpeg" alt="Card image cap">
+					<div align="center">
+						<p><b>Isaac Bandeira</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="isaac" tabindex="-1" role="dialog" aria-labelledby="isaacLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="isaacLabel">Isaac Bandeira</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -338,21 +332,21 @@
 				</div>
 			</div>
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#joao" class="card margin-left-10">
-					<img class="card-img-top" src="../img/professores/Joao.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>João Alberto Brito de Abreu</b></p>
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#joao" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/professores/joao.jpeg" alt="Card image cap">
+					<div align="center">
+						<p><b>João Alberto Brito de Abreu</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="joao" tabindex="-1" role="dialog" aria-labelledby="joaoLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="joaoLabel">João Alberto Brito de Abreu</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -367,21 +361,21 @@
 				</div>
 			</div>
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#luiz" class="card margin-left-10">
-					<img class="card-img-top" src="../img/silhouette.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>Luiz de Beltrão Lima Jr</b></p>
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#luiz" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/professores/beltrao.jpeg" alt="Card image cap">
+					<div align="center">
+						<p><b>Luiz de Beltrão Lima Jr</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="luiz" tabindex="-1" role="dialog" aria-labelledby="luizLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="luizLabel">Luiz de Beltrão Lima Jr</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -396,21 +390,21 @@
 				</div>
 			</div>
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#marcelino" class="card margin-left-10">
-					<img class="card-img-top" src="../img/professores/Marcelino.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>Marcelino Antero Silva</b></p>
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#marcelino" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/silhouette.jpg" alt="Card image cap">
+					<div align="center">
+						<p><b>Marcelino Antero Silva</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="marcelino" tabindex="-1" role="dialog" aria-labelledby="marcelinoLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="marcelinoLabel">Marcelino Antero Silva</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -425,26 +419,29 @@
 				</div>
 			</div>
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#marcio" class="card margin-left-10">
-					<img class="card-img-top" src="../img/professores/Marcio.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>Márcio Renato Teixeira Benevides</b></p>
+		</div>
+		<div class="row" style="margin-left: 5px;">
+
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#marcio" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/professores/marcio.jpeg" alt="Card image cap">
+					<div align="center">
+						<p><b>Márcio Renato Teixeira Benevides</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="marcio" tabindex="-1" role="dialog" aria-labelledby="marcioLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="marcioLabel">Márcio Renato Teixeira Benevides</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
 						<div class="modal-body">
-							<p>Atualmente me debruço sobre o chamado "mundo do trabalho", que passa por permanentes ressignificações, dialogando com as singularidades de cada tempo histórico. Num contexto em que os vínculos empregatícios são frágeis e as trajetórias profissionais não-lineares dominam, as capacidades agentivas de ?dar os pulos? e reinventar possibilidades a partir das práticas cotidianas é fundamental. Seguindo esse rastro, este trabalho persegue a história de cinco jovens cearenses que se recriam e produzem esse universo laboral a partir de estratégias do dia-a-dia. A moda, a gastronomia, a criação de conteúdo na internet, a periferia de Fortaleza, o terreiro de Candomblé e até mesmo o call center são alguns dos cenários desta pesquisa. Se trabalhar por necessidade é importante, buscar fazer o que se gosta e o que lhe dá possibilidades de prazer e de diversão também são horizontes possíveis. Embora a dominação e a exploração do trabalho se incontestável, um dos principais objetivos desse trabalho é apontar que essas estruturas não são totalizantes e que os indivíduos são capazes de se utilizar de suas maneiras e seus jeitos para produzir trabalho.</p>
+							<p>Atualmente me debruço sobre o chamado "mundo do trabalho", que passa por permanentes ressignificações, dialogando com as singularidades de cada tempo histórico. Num contexto em que os vínculos empregatícios são frágeis e as trajetórias profissionais não-lineares dominam, as capacidades agentivas de "dar os pulos" e reinventar possibilidades a partir das práticas cotidianas é fundamental. Seguindo esse rastro, este trabalho persegue a história de cinco jovens cearenses que se recriam e produzem esse universo laboral a partir de estratégias do dia-a-dia. A moda, a gastronomia, a criação de conteúdo na internet, a periferia de Fortaleza, o terreiro de Candomblé e até mesmo o call center são alguns dos cenários desta pesquisa. Se trabalhar por necessidade é importante, buscar fazer o que se gosta e o que lhe dá possibilidades de prazer e de diversão também são horizontes possíveis. Embora a dominação e a exploração do trabalho se incontestável, um dos principais objetivos desse trabalho é apontar que essas estruturas não são totalizantes e que os indivíduos são capazes de se utilizar de suas maneiras e seus jeitos para produzir trabalho.</p>
 							<p><strong>Lattes: </strong><a href="http://lattes.cnpq.br/8894091850847331" target="_blank">http://lattes.cnpq.br/8894091850847331</a></p>
 						</div>
 						<div class="modal-footer">
@@ -454,21 +451,21 @@
 				</div>
 			</div>
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#marcos" class="card margin-left-10">
-					<img class="card-img-top" src="../img/professores/Marcos.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>Marcos Antônio Alves dos Santos</b></p>
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#marcos" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/professores/marcos.jpeg" alt="Card image cap">
+					<div align="center">
+						<p><b>Marcos Antônio Alves dos Santos</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="marcos" tabindex="-1" role="dialog" aria-labelledby="marcosLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="marcosLabel">Marcos Antônio Alves dos Santos</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -483,21 +480,21 @@
 				</div>
 			</div>
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#robson" class="card margin-left-10">
-					<img class="card-img-top" src="../img/professores/Robson.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>Robson Gonçalves Fechine Feitosa</b></p>
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#robson" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/professores/robson.jpeg" alt="Card image cap">
+					<div align="center">
+						<p><b>Robson Gonçalves Fechine Feitosa</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="robson" tabindex="-1" role="dialog" aria-labelledby="robsonLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="robsonLabel">Robson Gonçalves Fechine Feitosa</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -512,21 +509,21 @@
 				</div>
 			</div>
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#sidney" class="card margin-left-10">
-					<img class="card-img-top" src="../img/professores/Sidney.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>Sidney de Lima Pinto</b></p>
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#sidney" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/professores/sidney.jpeg" alt="Card image cap">
+					<div align="center">
+						<p><b>Sidney de Lima Pinto</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="sidney" tabindex="-1" role="dialog" aria-labelledby="sidneyLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="sidneyLabel">Sidney de Lima Pinto</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -541,21 +538,21 @@
 				</div>
 			</div>
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#talles" class="card margin-left-10">
-					<img class="card-img-top" src="../img/professores/Talles.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>Talles Brito Viana</b></p>
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#talles" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/professores/talles.jpeg" alt="Card image cap">
+					<div align="center">
+						<p><b>Talles Brito Viana</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="talles" tabindex="-1" role="dialog" aria-labelledby="tallesLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="tallesLabel">Talles Brito Viana</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -570,21 +567,21 @@
 				</div>
 			</div>
 			<!-- Modal end -->
-			<div class="col-md-4 col-lg-3 col-xl-2 margin-bottom-15">
-				<div  data-toggle="modal" data-target="#yuri" class="card margin-left-10">
-					<img class="card-img-top" src="../img/professores/Yuri.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"><b>Yuri Almeida Lacerda</b></p>
+			<div class="col-sm-6 col-lg-2 margin-bottom-15">
+				<div  data-toggle="modal" data-target="#yuri" class=" margin-left-10">
+					<img class="card-img-top rounded-circle" style="box-shadow: 0px 1px 1px 1px; margin-bottom: 5px" src="../img/professores/yuri.jpeg" alt="Card image cap">
+					<div align="center">
+						<p><b>Yuri Almeida Lacerda</b></p>
 					</div>
 				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="yuri" tabindex="-1" role="dialog" aria-labelledby="yuriLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="yuriLabel">Yuri Almeida Lacerda</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
@@ -604,37 +601,7 @@
 	</main>
 	<!-- Main end -->
 	<!-- Footer begin -->
-	<footer id="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md col-lg-4">
-					<p class="footer-title">Sistemas de Informação</p>
-					<p class="align-justify">O Bachareledo em Sistemas de Informação tem como objetivo formar profissionais para atuar em atividades ligadas a administração do fluxo de informações geradas e distribuídas por redes de computadores dentro de uma organização (planejamento e organização do processamento, armazenamento, recuperação e disponibilização das informações), além de funções relacionadas a suporte aos usuários e infraestrutura tecnológica.</p>
-				</div>
-				<div class="col-md col-lg-4">
-					<p class="footer-title">Desenvolvedores</p>
-					<p class="align-center">
-						<a href="https://www.facebook.com/fabio.f.junior.14">Antonio Fabio da Silva Junior</a><br />
-						<a href="https://www.facebook.com/carmem.barreto.52">Carmem Barreto Veloso</a><br />
-						<a href="https://www.facebook.com/mayk.arrais">Cicero Mayke Arrais</a><br />
-						<a href="https://www.facebook.com/franciscojosivamtiadozafreire">Francisco Jozivan Tiadoza Freire</a><br />
-						<a href="https://www.facebook.com/darcanjo.baal">José Aderbal Aragão Filho</a><br />
-						<a href="https://www.facebook.com/raffaell.caitano">Raffaell Rodrigues Caitano</a><br />
-						<a href="https://www.facebook.com/ViniciusMatosMedeiros">Vinícius Matos Medeiros</a><br />
-					</p>
-				</div>
-				<div class="col-md col-lg-4">
-					<p class="footer-title">Contato IFCE Crato</p>
-					<p>
-						<p><i class="material-icons footer-icon">phone</i>&emsp;(88) 3586-8151</p>
-						<p><i class="material-icons footer-icon">email</i>&emsp;davidduarte@ifce.edu.br</p>
-						<p><i class="material-icons footer-icon">location_on</i>&emsp;CE-292, 15 - Gisélia Pinheiro, Crato - CE</p>
-					</p>
-				</div>
-			</div>
-			<p class="align-center margin-top-10">&copy; Copyright 2018 - Todos os direitos reservados.</p>
-		</div>
-	</footer>
+
 	<!-- Footer end -->
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -644,4 +611,35 @@
 
 	<script type="text/javascript" src="../js/laboratorios.js"></script>
 </body>
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md col-lg-4">
+				<p class="footer-title">Sistemas de Informação</p>
+				<p class="align-justify">O Bachareledo em Sistemas de Informação tem como objetivo formar profissionais para atuar em atividades ligadas a administração do fluxo de informações geradas e distribuídas por redes de computadores dentro de uma organização (planejamento e organização do processamento, armazenamento, recuperação e disponibilização das informações), além de funções relacionadas a suporte aos usuários e infraestrutura tecnológica.</p>
+			</div>
+			<div class="col-md col-lg-4">
+				<p class="footer-title">Desenvolvedores</p>
+				<p class="align-center">
+					<a href="https://www.facebook.com/fabio.f.junior.14">Antonio Fabio da Silva Junior</a><br />
+					<a href="https://www.facebook.com/carmem.barreto.52">Carmem Barreto Veloso</a><br />
+					<a href="https://www.facebook.com/mayk.arrais">Cicero Mayke Arrais</a><br />
+					<a href="https://www.facebook.com/franciscojosivamtiadozafreire">Francisco Jozivan Tiadoza Freire</a><br />
+					<a href="https://www.facebook.com/darcanjo.baal">José Aderbal Aragão Filho</a><br />
+					<a href="https://www.facebook.com/raffaell.caitano">Raffaell Rodrigues Caitano</a><br />
+					<a href="https://www.facebook.com/ViniciusMatosMedeiros">Vinícius Matos Medeiros</a><br />
+				</p>
+			</div>
+			<div class="col-md col-lg-4">
+				<p class="footer-title">Contato IFCE Crato</p>
+				<p>
+					<p><i class="material-icons footer-icon">phone</i>&emsp;(88) 3586-8151</p>
+					<p><i class="material-icons footer-icon">email</i>&emsp;davidduarte@ifce.edu.br</p>
+					<p><i class="material-icons footer-icon">location_on</i>&emsp;CE-292, 15 - Gisélia Pinheiro, Crato - CE</p>
+				</p>
+			</div>
+		</div>
+		<p class="align-center margin-top-10">&copy; Copyright 2018 - Todos os direitos reservados.</p>
+	</div>
+</footer>
 </html>
