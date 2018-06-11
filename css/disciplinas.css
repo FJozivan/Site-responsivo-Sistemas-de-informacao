@@ -124,9 +124,3 @@ main {
 #eixot {
 	background-color: lightgreen;
 }
-.card-img-top:hover
-{
-        -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-        transform: scale(0.8);
-}
