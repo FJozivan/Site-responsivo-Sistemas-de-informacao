@@ -1,8 +1,4 @@
 /* DISCIPLINA */
-table {
-	background-color: white !important;
-}
-
 table tbody tr td {
 	height: 49px !important;
 }
@@ -32,7 +28,7 @@ table tbody tr td {
 
 /* DISCIPLINA 2*/
 body {
-	background-color: #C6EBBE;
+	background-color: #D9F2DF;
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
@@ -68,19 +64,19 @@ main {
 }
 
 .exb {
-	background-color: #A0C1B9; /*grey*/
+	background-color: #BFB9BD; /*gray*/
 }
 
 .exc {
-	background-color: #008148; /*orange*/
+	background-color: #E59B1B; /*orange*/
 }
 
 .exh {
-	background-color: #6290C3; /*lightblue*/
+	background-color: #A1E8FF; /*lightblue*/
 }
 
 .ext {
-	background-color: #87C38F; /*lightgreen*/
+	background-color: #88FF65; /*lightgreen*/
 }
 
 .margin-top-5 {

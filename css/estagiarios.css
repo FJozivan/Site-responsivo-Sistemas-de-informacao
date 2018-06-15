@@ -1,5 +1,5 @@
 body{
-  background-color: #C6EBBE;
+  background-color: #D9F2DF;
 }
 .contain {
   margin-top: 1%;
@@ -64,7 +64,7 @@ label {
   margin-left: 50px;
 }
 .cards{
-  background-color: #008148; /*#37A64A*/
+  background-color: #3FA0A8; /*#37A64A*/
   border-radius: 20px;
   padding: 4%;
   margin-top: 10px;
@@ -72,8 +72,8 @@ label {
 .avatar{
   max-width: 10%;
   max-height: 10%;
-  background-color: #87C38F; /*#B8C9E7*/
-  border-radius: 50px
+  background-color: #3FA0A8; /*#B8C9E7*/
+  border-radius: 0px
 }
 .hrs{
   border:1px solid #041B15; /*black*/ 
